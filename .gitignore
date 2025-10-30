@@ -1,0 +1,89 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+mlvenv/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Build / distribution
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs / reports
+logs/
+*.log
+mlruns/
+
+# Caches
+.cache/
+**/.cache/
+.huggingface/
+wandb/
+.experiment/
+
+# Streamlit
+streamlit/.cache/
+**/streamlit/.cache/
+
+# Project data and artifacts (keep dirs via .gitkeep if needed)
+models/**
+!models/.gitkeep
+
+data/processed/**
+!data/processed/.gitkeep
+
+data/raw/**
+!data/raw/.gitkeep
+
+# Common large ML files
+*.parquet
+*.joblib
+*.npy
+*.npz
+*.h5
+*.keras
+*.pt
+*.bin
+*.safetensors
+
+# Local tooling
+.ai/terminal/**
+.cursor/
+
+# Temp files
+*.tmp
+*.bak
+
+
+# Node (if any embedded UI)
+node_modules/
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Environment files
+*.env
+.env.*
